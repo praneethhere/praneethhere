@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """Update the MERGED-PRS section in README.md.
 
-This script searches GitHub for recently merged pull requests authored by the
-configured username and rewrites the table between these README markers:
-
-<!-- MERGED-PRS:START -->
-<!-- MERGED-PRS:END -->
+Strict version: only includes pull requests whose real PR details contain
+merged_at. This prevents closed-unmerged PRs or still-open PRs from appearing
+if GitHub search returns noisy results.
 """
 
 from __future__ import annotations
@@ -26,6 +24,10 @@ README_PATH = Path("README.md")
 
 START = "<!-- MERGED-PRS:START -->"
 END = "<!-- MERGED-PRS:END -->"
+
+# Pull more than MAX_PRS, then strictly filter by merged_at.
+# This avoids showing wrong PRs if the search result contains noise.
+SEARCH_PAGE_SIZE = max(30, min(100, MAX_PRS * 5))
 
 
 def github_get(url: str) -> dict:
@@ -63,13 +65,15 @@ def clean_title(title: str) -> str:
 
 
 def fetch_recent_merged_prs() -> list[dict]:
-    query = f"is:pr is:merged author:{USERNAME} -repo:{USERNAME}/{USERNAME}"
+    # Search is used only for discovery. Real merged status is verified below
+    # using each PR's `merged_at` field from the Pulls API.
+    query = f"is:pr author:{USERNAME} -repo:{USERNAME}/{USERNAME}"
     params = urlencode(
         {
             "q": query,
             "sort": "updated",
             "order": "desc",
-            "per_page": MAX_PRS,
+            "per_page": SEARCH_PAGE_SIZE,
         },
         quote_via=quote,
     )
@@ -77,26 +81,40 @@ def fetch_recent_merged_prs() -> list[dict]:
     data = github_get(search_url)
 
     prs: list[dict] = []
-    for item in data.get("items", []):
-        pr_api_url = item.get("pull_request", {}).get("url")
-        merged_at = item.get("closed_at")
+    seen_urls: set[str] = set()
 
-        # Search results only expose closed_at. Fetch PR details to get true merged_at.
-        if pr_api_url:
-            try:
-                pr_details = github_get(pr_api_url)
-                merged_at = pr_details.get("merged_at") or merged_at
-            except Exception as exc:  # noqa: BLE001 - keep workflow resilient
-                print(f"Warning: could not fetch PR details for {item.get('html_url')}: {exc}", file=sys.stderr)
+    for item in data.get("items", []):
+        if len(prs) >= MAX_PRS:
+            break
+
+        pr_api_url = item.get("pull_request", {}).get("url")
+        html_url = item.get("html_url")
+        if not pr_api_url or not html_url or html_url in seen_urls:
+            continue
+
+        try:
+            pr_details = github_get(pr_api_url)
+        except Exception as exc:  # noqa: BLE001 - keep workflow resilient
+            print(f"Warning: could not fetch PR details for {html_url}: {exc}", file=sys.stderr)
+            continue
+
+        merged_at = pr_details.get("merged_at")
+        merged = bool(pr_details.get("merged"))
+        state = pr_details.get("state")
+
+        # Strict gate: only real merged PRs are allowed into the README.
+        if not merged or not merged_at or state != "closed":
+            continue
 
         prs.append(
             {
                 "repo": repo_name_from_api_url(item["repository_url"]),
                 "title": clean_title(item["title"]),
-                "url": item["html_url"],
+                "url": html_url,
                 "merged_at": format_date(merged_at),
             }
         )
+        seen_urls.add(html_url)
 
     return prs
 

@@ -53,11 +53,9 @@ This section is automatically refreshed from GitHub and shows recently merged PR
 <!-- MERGED-PRS:START -->
 | Project | Merged Pull Request | Merged |
 |---|---|---|
-| NumPy | [BUG: exclude __pycache__ directories from wheels](https://github.com/numpy/numpy/pull/31397) | 2026-05-06 |
-| pandas | [DOC: clarify missing-value handling in pandas and NumPy reductions](https://github.com/pandas-dev/pandas/pull/65441) | 2026-05-06 |
-| Excalidraw | [Fix focused product behavior with small review-friendly change](https://github.com/excalidraw/excalidraw/pull/11286) | 2026-05-05 |
-| pre-commit | [Handle SHA-256 zero OID in pre-push](https://github.com/pre-commit/pre-commit/pull/3677) | 2026-05-04 |
-| Apple Containerization | [Handle missing Docker-Content-Digest during manifest resolution](https://github.com/apple/containerization/pull/715) | 2026-05-01 |
+| numpy/numpy | [BUG: exclude __pycache__ directories from wheels](https://github.com/numpy/numpy/pull/31397) | 2026-05-07 |
+| excalidraw/excalidraw | [fix(editor): prevent duplicate lasso toolbar item](https://github.com/excalidraw/excalidraw/pull/11286) | 2026-05-06 |
+| pandas-dev/pandas | [DOC: clarify missing-value handling in pandas and NumPy reductions](https://github.com/pandas-dev/pandas/pull/65441) | 2026-05-06 |
 <!-- MERGED-PRS:END -->
 
 > I prefer contributions that are small, testable, review-friendly, and useful to real maintainers.
