@@ -19,6 +19,7 @@ I build production-grade systems, contribute to high-impact open source projects
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Praneeth%20Kodumagulla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praneeth-k-3b9059171/)
 [![GitHub](https://img.shields.io/badge/GitHub-praneethhere-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/praneethhere)
+[![Email](https://img.shields.io/badge/Email-praneethhere%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praneethhere@gmail.com)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/praneethhere?tab=pullrequests)
 [![Research](https://img.shields.io/badge/Research-Sciety%20Publication-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://sciety.org/articles/activity/10.21203/rs.3.rs-9286871/v1)
 [![AI Engineering](https://img.shields.io/badge/AI%20Engineering-Agentic%20Systems-7B61FF?style=for-the-badge&logo=openai&logoColor=white)](#)
@@ -143,17 +144,16 @@ I like working on issues where the solution is not just code, but a clean loop:
 
 <div align="center">
 
-### GitHub Stats
+[![Profile Views](https://komarev.com/ghpvc/?username=praneethhere&label=Profile%20Views&style=for-the-badge)](https://github.com/praneethhere)
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=praneethhere&show_icons=true&hide_border=true&rank_icon=github&custom_title=GitHub%20Stats" alt="GitHub Stats" />
+<br /><br />
 
-### Top Languages
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=praneethhere&layout=compact&hide_border=true&custom_title=Top%20Languages" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=praneethhere&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" alt="Praneeth's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=praneethhere&layout=compact&hide_border=true&theme=transparent" alt="Praneeth's top languages" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=praneethhere&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=praneethhere&hide_border=true&theme=transparent" alt="Praneeth's GitHub streak" />
 
 </div>
 
@@ -187,6 +187,7 @@ I’m always interested in conversations around:
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praneeth-k-3b9059171/)
 [![Follow on GitHub](https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/praneethhere)
+[![Email Me](https://img.shields.io/badge/Email-praneethhere%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praneethhere@gmail.com)
 [![Read Research](https://img.shields.io/badge/Read%20Research-Sciety-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://sciety.org/articles/activity/10.21203/rs.3.rs-9286871/v1)
 
 </div>
