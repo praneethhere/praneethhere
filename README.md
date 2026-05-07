@@ -53,9 +53,11 @@ This section is automatically refreshed from GitHub and shows recently merged PR
 <!-- MERGED-PRS:START -->
 | Project | Merged Pull Request | Merged |
 |---|---|---|
-| numpy/numpy | [BUG: exclude __pycache__ directories from wheels](https://github.com/numpy/numpy/pull/31397) | 2026-05-07 |
-| excalidraw/excalidraw | [fix(editor): prevent duplicate lasso toolbar item](https://github.com/excalidraw/excalidraw/pull/11286) | 2026-05-06 |
-| pandas-dev/pandas | [DOC: clarify missing-value handling in pandas and NumPy reductions](https://github.com/pandas-dev/pandas/pull/65441) | 2026-05-06 |
+| NumPy | [BUG: exclude __pycache__ directories from wheels](https://github.com/numpy/numpy/pull/31397) | 2026-05-06 |
+| pandas | [DOC: clarify missing-value handling in pandas and NumPy reductions](https://github.com/pandas-dev/pandas/pull/65441) | 2026-05-06 |
+| Excalidraw | [Fix focused product behavior with small review-friendly change](https://github.com/excalidraw/excalidraw/pull/11286) | 2026-05-05 |
+| pre-commit | [Handle SHA-256 zero OID in pre-push](https://github.com/pre-commit/pre-commit/pull/3677) | 2026-05-04 |
+| Apple Containerization | [Handle missing Docker-Content-Digest during manifest resolution](https://github.com/apple/containerization/pull/715) | 2026-05-01 |
 <!-- MERGED-PRS:END -->
 
 > I prefer contributions that are small, testable, review-friendly, and useful to real maintainers.
@@ -148,12 +150,12 @@ I like working on issues where the solution is not just code, but a clean loop:
 
 <br /><br />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=praneethhere&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" alt="Praneeth's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=praneethhere&layout=compact&hide_border=true&theme=transparent" alt="Praneeth's top languages" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=praneethhere&theme=github_dark" alt="GitHub stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=praneethhere&theme=github_dark" alt="Top languages" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=praneethhere&hide_border=true&theme=transparent" alt="Praneeth's GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=praneethhere&hide_border=true&theme=github-dark-blue" alt="GitHub streak" />
 
 </div>
 
