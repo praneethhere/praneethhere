@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # Opt in early to Node 24 for JavaScript actions while GitHub migrates runners.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -22,6 +26,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: praneethhere
           MAX_PRS: "8"
+          BOT_MERGE_REPOS: pytorch/pytorch
         run: python .github/scripts/update_merged_prs.py
 
       - name: Commit README update
