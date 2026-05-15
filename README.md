@@ -73,6 +73,9 @@ I’m also building research credibility around autonomous systems and AI-native
 - **Instruction Strategy Design for Autonomous Machine Learning Experimentation Systems**  
   [Read on Sciety](https://sciety.org/articles/activity/10.21203/rs.3.rs-9286871/v1)
 
+- **An Engineering Framework for Self-Correcting Autonomous AI Agents: Mitigating Hallucinations and Reasoning Loops in Autonomous Engineering Workflows**  
+  [Read on SSRN](https://dx.doi.org/10.2139/ssrn.6759126)
+
 ---
 
 ## 🛠️ Tech I Work With
@@ -193,6 +196,7 @@ I’m always interested in conversations around:
 [![Follow on GitHub](https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/praneethhere)
 [![Email Me](https://img.shields.io/badge/Email-praneethhere%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praneethhere@gmail.com)
 [![Read Research](https://img.shields.io/badge/Read%20Research-Sciety-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://sciety.org/articles/activity/10.21203/rs.3.rs-9286871/v1)
+[![Read Research](https://img.shields.io/badge/Read%20Research-SSRN-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://dx.doi.org/10.2139/ssrn.6759126)
 
 </div>
 
