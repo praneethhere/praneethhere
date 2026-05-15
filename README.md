@@ -22,6 +22,7 @@ I build production-grade systems, contribute to high-impact open source projects
 [![Email](https://img.shields.io/badge/Email-praneethhere%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praneethhere@gmail.com)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/praneethhere?tab=pullrequests)
 [![Research](https://img.shields.io/badge/Research-Sciety%20Publication-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://sciety.org/articles/activity/10.21203/rs.3.rs-9286871/v1)
+[![Research](https://img.shields.io/badge/Research-SSRN%20Publication-8A2BE2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://dx.doi.org/10.2139/ssrn.6759126)
 [![AI Engineering](https://img.shields.io/badge/AI%20Engineering-Agentic%20Systems-7B61FF?style=for-the-badge&logo=openai&logoColor=white)](#)
 
 </div>
