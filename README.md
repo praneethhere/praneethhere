@@ -54,6 +54,7 @@ This section is automatically refreshed from GitHub and shows recently merged PR
 <!-- MERGED-PRS:START -->
 | Project | Merged Pull Request | Merged |
 |---|---|---|
+| TensorFlow | [Fix XLA searchsorted side='right' for NaN values](https://github.com/tensorflow/tensorflow/pull/117850) | 2026-06-29 |
 | praneethhere/vault-sts-migration-contract-poc | [Add prerequisites and dependency documentation](https://github.com/praneethhere/vault-sts-migration-contract-poc/pull/2) | 2026-05-09 |
 | praneethhere/vault-sts-migration-contract-poc | [Add real OpenUnison STS end-to-end PoC](https://github.com/praneethhere/vault-sts-migration-contract-poc/pull/1) | 2026-05-09 |
 | pytest | [Fix strict options from addopts](https://github.com/pytest-dev/pytest/pull/14443) | 2026-05-08 |
