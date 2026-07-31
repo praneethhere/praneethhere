@@ -54,6 +54,7 @@ This section is automatically refreshed from GitHub and shows recently merged PR
 <!-- MERGED-PRS:START -->
 | Project | Merged Pull Request | Merged |
 |---|---|---|
+| VS Code | [Support COPILOT_HOME for Copilot CLI state](https://github.com/microsoft/vscode/pull/314917) | 2026-07-31 |
 | TensorFlow | [Fix XLA searchsorted side='right' for NaN values](https://github.com/tensorflow/tensorflow/pull/117850) | 2026-06-29 |
 | praneethhere/vault-sts-migration-contract-poc | [Add prerequisites and dependency documentation](https://github.com/praneethhere/vault-sts-migration-contract-poc/pull/2) | 2026-05-09 |
 | praneethhere/vault-sts-migration-contract-poc | [Add real OpenUnison STS end-to-end PoC](https://github.com/praneethhere/vault-sts-migration-contract-poc/pull/1) | 2026-05-09 |
@@ -61,7 +62,6 @@ This section is automatically refreshed from GitHub and shows recently merged PR
 | NumPy | [BUG: exclude __pycache__ directories from wheels](https://github.com/numpy/numpy/pull/31397) | 2026-05-07 |
 | PyTorch | [[Docathon] Convert tensor_view.rst to MyST Markdown](https://github.com/pytorch/pytorch/pull/182620) | 2026-05-07 |
 | Excalidraw | [fix(editor): prevent duplicate lasso toolbar item](https://github.com/excalidraw/excalidraw/pull/11286) | 2026-05-06 |
-| pandas | [DOC: clarify missing-value handling in pandas and NumPy reductions](https://github.com/pandas-dev/pandas/pull/65441) | 2026-05-06 |
 <!-- MERGED-PRS:END -->
 
 > I prefer contributions that are small, testable, review-friendly, and useful to real maintainers.
